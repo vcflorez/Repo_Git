@@ -7,6 +7,8 @@ library(ROAuth)
 library(dplyr)
 library(rtweet)
 
+
+#Un comentario añadido por viviana
 #Barranquilla 
 rt1 <- search_tweets(
   "venezolano OR veneco OR venezolana OR venezolana OR venezolanos OR venecas OR veneca OR #Venezolanosencolombia OR #SomospanasColombia OR #VenezolanosenBarranquilla OR #SosVenezuela OR #venezolanosenelexterior OR #venezolanosenelmundo OR #venezolanosenelextranjero OR #noticiasvenezuela OR #venezuelalucha", n = 3000, include_rts = FALSE, geocode = '10.99904,-74.863,30km')
